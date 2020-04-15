@@ -10,4 +10,4 @@ artifactory_ha_database_host: "{{ hostvars[groups['postgresql'][0]].ip }}"
 artifactory_ha_database_port: "5432"
 artifactory_ha_database_name: artifactory
 artifactory_ha_database_user: artifactory
-artifactory_ha_database_password: "bkzuhbeASbpzedDJ" # Encrypt me
+artifactory_ha_database_password: password # Encrypt me
